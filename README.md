@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This README is to tell you that this is a practise run, and I have no idea what I'm doing yet.
 
 Things you may want to cover:
 
