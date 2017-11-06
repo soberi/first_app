@@ -1,3 +1,84 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$primary-color: #e9eaf1;
+$secondary-color: #495051;
+$font-stack: Tahoma, Verdana, Segoe, sans-serif;
+
+
+html,
+body {
+	height: 100%;
+	font-family: $font-stack;
+}
+
+body {
+	background: $primary-color;
+	margin-top: 50px;
+}
+
+.navbar {
+	height: 50px;
+	background-color: $secondary-color;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.25);
+}
+
+.navbar-nav {
+  margin: 0 -15px;
+}
+
+.navbar-default .navbar-brand {
+	color: $primary-color;
+}
+
+.navbar-default .navbar-nav>li {
+
+	a {
+  	color: $primary-color;
+  	background-color: $secondary-color;
+	} 
+
+	a:hover {
+  	color: $secondary-color;
+  	background-color: $primary-color;
+  	transition: 600ms;
+	} 
+}
+
+/*    the stickiest footer   */
+.page-wrap {
+	min-height: 100%;
+	margin-bottom: -50px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+	img {
+		margin:auto;
+	}
+}
+
+.page-wrap:after{
+	content: "";
+	display: block;
+}
+
+.site-footer,
+.page-wrap:after {
+	height: 50px;
+}
+
+.site-footer {
+	background-color: $secondary-color;
+	color: $primary-color;
+	text-align: center;
+	width: 100%;
+
+	span {
+		display: block;
+		padding-top: 15px;
+	}
+}
