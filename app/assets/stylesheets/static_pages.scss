@@ -38,12 +38,12 @@ body {
 	a {
   	color: $primary-color;
   	background-color: $secondary-color;
+  	transition: 600ms;
 	} 
 
 	a:hover {
   	color: $secondary-color;
   	background-color: $primary-color;
-  	transition: 600ms;
 	} 
 }
 

@@ -1,0 +1,74 @@
+// Place all the styles related to the products controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$primary-color: #e9eaf1;
+$secondary-color: #495051;
+
+h1 {
+	padding: 10px;
+}
+
+th {
+	padding: 10px;
+	width: 25%;
+}
+
+table {
+	width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+label {
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+th {
+	margin: 0 auto;
+}
+
+input, textarea {
+	min-width: 60%;
+	margin-bottom: 20px;
+}
+
+textarea {
+	min-height: 100px;
+}
+
+.actions>input {
+	background-color: #494f50;
+	color: #e9eaf1;
+	min-width: 150px;
+	font-size: 1.2em;
+	border-radius: 0;
+	padding: 15px;
+	width: 20%;
+	transition: 600ms;
+}
+
+.actions>input:hover {
+	color: $secondary-color;
+  background-color: #f5f7ff;
+}
+
+a {
+	color: $secondary-color;
+	font-size: 1.2em;
+	padding: 10px;
+	transition: 600ms;
+}
+
+.page-wrap>a:hover {
+	color: $primary-color;
+	background-color: $secondary-color;
+}
+
+
+
+
+
